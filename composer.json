@@ -1,0 +1,16 @@
+{
+    "name": "pedromdev/theme",
+    "description": "Create and manage your themes",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~5.3",
+        "phpunit/php-code-coverage": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Alves",
+            "email": "pedromarcelodesaalves@gmail.com"
+        }
+    ]
+}
