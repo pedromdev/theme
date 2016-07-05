@@ -13,6 +13,8 @@ class AssetManagerFactory implements FactoryInterface
 {
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-        return new AssetManager();
+        return new AssetManager(
+            $serviceLocator->get('AssetManagerConfig')
+        );
     }
 }
