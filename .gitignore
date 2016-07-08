@@ -1,3 +1,4 @@
 composer.lock
 test/tmp/
 vendor/
+/nbproject/
